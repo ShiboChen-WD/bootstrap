@@ -1,0 +1,73 @@
+/* Custom CSS for the website */
+.custom-btn {
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+.custom-btn:hover {
+  background-color: #218838;
+  border-color: #1e7e34;
+}
+
+.custom-list {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.custom-list:hover {
+  background-color: #f8f9fa;
+}
+
+.alert {
+  border-radius: 5px;
+}
+.compressed-img {
+  height: 350px; /* Adjust this value to compress the height */
+  object-fit: cover; /* Ensures the image fills the space without distortion */
+}
+/* Background styling */
+body {
+  background-color: #f8f9fa; /* Light background color */
+}
+
+/* Text Styling */
+h1, h2 {
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
+}
+
+/* Card styling */
+.card {
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add subtle shadow on hover */
+  transform: translateY(-5px);
+}
+
+.card-img-top {
+  object-fit: cover;
+  height: 200px; /* Set fixed height for the images */
+}
+
+.card-body {
+  padding: 20px;
+}
+
+/* Typography */
+.text-muted {
+  font-size: 1.1rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* Spacing for headings */
+h1 {
+  margin-bottom: 20px;
+}
+
